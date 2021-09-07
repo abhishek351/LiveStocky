@@ -16,19 +16,19 @@ It's a live stock tracker app from yahoo finance library(python) or you can use 
 ```
 git clone https://github.com/abhishek351/LiveStocky
 ```
-
+install requirements
 ```
 pip install -r requirements.txt
 ```
-
+runserver
 ```
 python manage.py runserver
 ```
-
+run celery worker in another termnal
 ```
  celery -A Your App Name.celery worker --pool=solo -l info
 ```
-
+run celery beat in another termnal
 ```
   celery -A  Your App Name beat -l INFO
 ```
