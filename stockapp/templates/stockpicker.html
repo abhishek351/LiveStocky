@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title%}
+StockPicker
+{% endblock title %}
+
+{% block body %}
+
+<div class="container">
+
+
+
+    <label class="label-stocks" for="StockPicker">Select stocks:</label>
+    <form action="/stocktracker">
+    <select class="form-select form-select-lg mb-3" multiple aria-label="multiple select example" name="stockpicker">
+      
+        {% for stocks in allstocks %}
+        <option value="{{stocks}}">{{stocks}}</option>
+        
+        {% endfor %}
+    </select>
+    <center>
+    <h5 class="label-head content-center"> Press ctrl  + (select your stocks) then Press Submit button. </h5>
+    <input class="btn btn-primary btn-lg" value="Submit" type="submit">
+</center>
+</form>
+</div>
+{% endblock body %}
+
+{% block js %}
+{% endblock js %}

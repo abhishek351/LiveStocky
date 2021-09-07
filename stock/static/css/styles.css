@@ -1,0 +1,50 @@
+
+
+body {
+    background: #eee
+}
+
+
+.label-head{
+    align-items: center;
+    font-weight: 500;
+    color:red;
+
+}
+.label-stocks{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.stocks-name{
+    color:black;
+    font-style: italic;
+    font-weight: 600;
+}
+.scope-name{
+    color:black;
+    font-style: oblique;
+
+}
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.name-scroll{
+    color: gray;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
