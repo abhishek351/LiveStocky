@@ -21,6 +21,18 @@ git clone https://github.com/abhishek351/LiveStocky
 pip install -r requirements.txt
 ```
 
+```
+python manage.py runserver
+```
+
+```
+ celery -A Your App Name.celery worker --pool=solo -l info
+```
+
+```
+  celery -A  Your App Name beat -l INFO
+```
+
 
 ## Contributing
 
