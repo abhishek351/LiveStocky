@@ -14,7 +14,7 @@ It's a live stock tracker app from yahoo finance library(python) or you can use 
 
 👯 Clone the repo 
 ```
-git clone https://github.com/SparshJain2000/Leetcode-solutions.git
+git clone https://github.com/abhishek351/LiveStocky
 ```
 
 ## Contributing
