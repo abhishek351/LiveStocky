@@ -48,7 +48,7 @@ class StockConsumer(AsyncWebsocketConsumer):
         )
 
         query_params=parse_qs(self.scope['query_string'].decode())
-        print(query_params)
+        #print(query_params)#for print the query you select
 
         stockpicker=query_params['stockpicker']
 
