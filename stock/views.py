@@ -36,7 +36,7 @@ def stocktracker(request):
         result=que.get()
         data.update(result)
 
-    print(data)
+
 
     
 
